@@ -1,2 +1,3 @@
 # LCOF2472
-I am Erripuka
+Repo for front end development 
+
