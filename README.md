@@ -1,3 +1,3 @@
 # LCOF2472
-Repo for front end development 
+This is my Term project for Front-end web development
 
