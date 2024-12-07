@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Us</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <header>
+        <div class="nav-list">
+            <a href="index.html"><img src="Images/logo.png" class="logo"></a>
+                      <!-- Hamburger Menu Button (visible only on mobile) -->
+                      <div class="hamburger">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+        </div>
+            <nav class="nav-menu"> 
+                <ul class="navbar">
+                    <li class="link"><a href="index.html">Home</a></li>
+                    <li class="link"><a href="about.html">About Us</a></li>
+                    <li class="link"><a href="media.html">Media</a></li>
+                    <li class="link"><a href="faq.html">FAQ</a></li>
+                    <li class="link"><a href="team.html">Our Team</a></li>
+                    <li class="link"><a href="training.html">Training</a></li>
+                    <li class="link"><a href="specials.html">Special</a></li>
+                    <li class="link"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+    </header>
+
+    <main>
+
+        <section>
+            <!-- <div class="container"> -->
+            <h1>Contact Us</h1>
+            <p>We’re here to assist you with all your housing shed needs! Reach out to us via email, phone, or visit us in person. Let us help you build the shed of your dreams.
+            </p>
+
+            <div class="contact-method">
+                <h2>Email Us</h2>
+                <p>For general inquiries, please email us at <a
+                        href="mailto:info@housingshed.com">info@housingshed.com</a>. We aim to respond within 24 hours.</p>
+            </div>
+
+            <div class="contact-method">
+                <h2>Call Us</h2>
+                <p>Our customer service team is available Monday to Friday, from 9 AM to 5 PM (EST).<br>
+                    Phone:<a href="tel:1234567890">(123) 456-7890</a></p>
+            </div>
+
+            <div class="contact-method">
+                <h2>Visit Us</h2>
+                <p>We'd love to see you in person! Our showroom and workshop are open to visitors.<br>
+                    <strong>Address:</strong><br>
+                    223 Main St<br>
+                    Ottawa, ON K1S 1C4
+                </p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8373.022810330069!2d-75.68088671710403!3d45.4082227104455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce050f5059252f%3A0x22c3e2d535621f44!2sSaint%20Paul%20University!5e0!3m2!1sen!2sca!4v1716788776232!5m2!1sen!2sca"
+                    allowfullscreen="" class="map" height="450" width="600" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <p><strong>Showroom Hours:</strong><br>
+                    Monday to Friday: 10 AM - 6 PM<br>
+                    Saturday: 11 AM - 4 PM<br>
+                    Sunday: Closed</p>
+            </div>
+
+            <h2>Contact Us</h2>
+            <p>Please fill out the form below to get in touch with us.</p>
+            <p>We will respond to your inquiry as soon as possible.</p>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required autofocus><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required><br>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your phone number"><br>
+
+                    <label for="date">Preferred Contact Date:</label>
+                    <input type="date" id="date" name="date"><br>
+
+                    <label for="contact-method">Preferred Contact Method:</label><br>
+                    <input type="radio" id="email-method" name="contact-method" value="email" checked>
+                    <label for="email-method">Email</label><br>
+                    <input type="radio" id="phone-method" name="contact-method" value="phone">
+                    <label for="phone-method">Phone</label><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Inquiry Details</legend>
+                    <label for="inquiry-type">Inquiry Type:</label>
+                    <select id="inquiry-type" name="inquiry-type">
+                        <option value="general">General Inquiry</option>
+                        <option value="product">Product Information</option>
+                        <option value="support">Customer Support</option>
+                    </select><br>
+
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" placeholder="Your comments" rows="4"
+                        cols="50"></textarea><br>
+
+                    <label for="newsletter">Subscribe to Newsletter:</label>
+                    <input type="checkbox" id="newsletter" name="newsletter" value="subscribe"><br>
+                </fieldset>
+
+                <button type="submit">Submit Request</button>
+                <button type="reset">Reset Form</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Housing sheds. All Rights Reserved.</p>
+        <p>Parth Salvi. Student Number: c0954080</p>
+        <p>Request Information: <a href="contact@housingsheds.com">contact@housingsheds.com</a></p>
+
+    </footer>
+    <script src="Scripts/script.js"></script>
+</body>
+
+</html>
